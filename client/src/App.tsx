@@ -1,7 +1,14 @@
+import styled, { ThemeProvider } from "styled-components";
 import "./App.css";
+import { GlobalStyles } from "./styles/Global";
+import { theme } from "./styles/Theme";
 
 function App() {
-  return <div></div>;
+  return (
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+    </ThemeProvider>
+  );
 }
 
 export default App;

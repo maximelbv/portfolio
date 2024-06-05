@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Jakarta";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-ExtraLight.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-Light.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-Medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-SemiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-ExtraBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-ExtraLightItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-LightItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-RegularItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-MediumItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-SemiBoldItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-BoldItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jakarta";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../assets/fonts/jakarta/static/PlusJakartaSans-ExtraBoldItalic.ttf");
+  font-display: swap;
+}
