@@ -17,7 +17,10 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-family: ${({ theme }) => theme.fonts.Jakarta}, sans-serif;
-  color: ${({ theme }) => theme.colors.text}
+  color: ${({ theme }) => theme.colors.text};
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
