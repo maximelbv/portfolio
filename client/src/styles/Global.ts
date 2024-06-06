@@ -21,6 +21,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
 }
 
 h1,
@@ -37,6 +38,11 @@ dl,
 dd {
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.link};
 }
 
 button {
