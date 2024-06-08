@@ -11,7 +11,7 @@ const ErrorPage = () => {
 
   const StyledError = styled.div`
     display: grid;
-    gap: ${({ theme }) => theme.spacing.M};
+    gap: ${({ theme }) => theme.spacing.S_XXXL};
     align-items: center;
     justify-content: center;
     text-align: center;
