@@ -7,6 +7,7 @@ export const theme: DefaultTheme = {
   },
   fonts: {
     Jakarta: "Jakarta",
+    Quincy: "Quincy",
   },
   spacing: {
     S_XXXS: "2px",

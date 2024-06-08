@@ -10,6 +10,7 @@ declare module "styled-components" {
     };
     fonts: {
       Jakarta: "Jakarta";
+      Quincy: "Quincy";
     };
     spacing: {
       S_XXXS: "2px";
