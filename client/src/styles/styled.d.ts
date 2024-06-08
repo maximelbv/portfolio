@@ -6,6 +6,7 @@ declare module "styled-components" {
   export interface DefaultTheme {
     colors: {
       text: "#545662";
+      subtext: "#7A7F93";
       link: "#0273DD";
     };
     fonts: {
