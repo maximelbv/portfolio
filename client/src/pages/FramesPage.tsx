@@ -1,6 +1,6 @@
 import ClassicHeroHeader from "../components/ClassicHeroHeader/ClassicHeroHeader";
 
-const pageMeta = {
+const pageMeta: IPageMeta = {
   title: "Frames",
   description: "a",
 };
