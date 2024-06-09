@@ -1,11 +1,11 @@
 import ClassicHeroHeader from "../components/ClassicHeroHeader/ClassicHeroHeader";
 
 const pageMeta: IPageMeta = {
-  title: "Frames",
+  title: "Projects",
   description: "A collection of my digital design experiments",
 };
 
-const FramesPage = () => {
+const ProjectsPage = () => {
   return (
     <div>
       <ClassicHeroHeader
@@ -16,4 +16,4 @@ const FramesPage = () => {
   );
 };
 
-export default FramesPage;
+export default ProjectsPage;

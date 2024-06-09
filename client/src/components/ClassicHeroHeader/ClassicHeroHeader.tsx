@@ -9,9 +9,9 @@ interface IProps {
 }
 
 const StyledHeader = styled.div`
-  padding: 140px 0;
+  padding: 115px 0;
   display: flex;
-  gap: ${({ theme }) => theme.spacing.S_M};
+  gap: ${({ theme }) => theme.spacing.S_XXS};
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -20,18 +20,18 @@ const StyledHeader = styled.div`
     display: flex;
     font-family: ${({ theme }) => theme.fonts.Quincy};
     font-weight: 500;
-    margin-right: -${({ theme }) => theme.spacing.M_XXS};
-    line-height: ${({ theme }) => theme.spacing.M_S};
+    margin-right: -${({ theme }) => theme.spacing.S_XXS};
+    line-height: 30px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     & > * {
-      margin-right: ${({ theme }) => theme.spacing.M_XXS};
+      margin-right: 0.5px;
       transform: translateY(${({ theme }) => theme.spacing.M_S});
     }
-    font-size: ${({ theme }) => theme.fontSize.XL};
-    text-transform: uppercase;
+    font-size: 30px;
     transition: transform 0.5s;
   }
   & .description {
+    font-size: ${({ theme }) => theme.fontSize.S_XXXL};
     color: ${({ theme }) => theme.colors.subtext};
     opacity: 0;
   }
@@ -42,14 +42,14 @@ const ClassicHeroHeader = ({ title, description }: IProps) => {
     gsap.to(".char", {
       y: 0,
       ease: "power4.inOut",
-      stagger: 0.05,
-      duration: 1,
+      stagger: 0.015,
+      duration: 0.7,
     });
     gsap.to(".description", {
       opacity: 1,
       ease: "power4.inOut",
-      delay: 0.6,
-      duration: 2.5,
+      delay: 0.5,
+      duration: 1,
     });
   }, []);
 

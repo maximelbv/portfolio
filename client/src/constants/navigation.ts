@@ -4,7 +4,7 @@ export const navigation: INavigationObject[] = [
     route: "/",
   },
   {
-    name: "Frames",
-    route: "/frames",
+    name: "Projects",
+    route: "/projects",
   },
 ];

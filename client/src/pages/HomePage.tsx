@@ -2,8 +2,8 @@ import ClassicHeroHeader from "../components/ClassicHeroHeader/ClassicHeroHeader
 
 const HomePage = () => {
   const pageMeta: IPageMeta = {
-    title: "Home",
-    description: "Nothing to see here for the moment",
+    title: "Maxime Lefebvre",
+    description: "creative developer & Interaction designer",
   };
 
   return (
