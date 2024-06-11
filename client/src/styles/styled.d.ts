@@ -7,6 +7,8 @@ declare module "styled-components" {
     colors: {
       text: "#545662";
       subtext: "#7A7F93";
+      element_bg: "#F4F5FB";
+      element_stroke: "#E7E7E7";
       link: "#0273DD";
     };
     fonts: {

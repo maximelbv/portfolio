@@ -17,6 +17,7 @@ const StyledNav = styled.nav`
   & a {
     color: ${({ theme }) => theme.colors.text};
     font-weight: 500;
+    background: ${({ theme }) => theme.colors};
   }
 `;
 
